@@ -16,5 +16,22 @@ var app = new EmberApp();
 // modules that you would like to import into your application
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
+app.import('bower_components/bootstrap/dist/css/bootstrap.min.css');
+app.import('bower_components/bootstrap/dist/js/bootstrap.min.js');
+app.import('bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot', { destDir: 'assets/fonts' });
+app.import('bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg', { destDir: 'assets/fonts' });
+app.import('bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf', { destDir: 'assets/fonts' });
+app.import('bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff', { destDir: 'assets/fonts' });
+app.import('bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2', { destDir: 'assets/fonts' });
+
+app.import('bower_components/bootstrap-material-design/dist/css/material.min.css');
+app.import('bower_components/bootstrap-material-design/dist/css/ripples.min.css');
+app.import('bower_components/bootstrap-material-design/dist/css/ripples.min.css.map', { destDir: 'assets' });
+app.import('bower_components/bootstrap-material-design/dist/js/material.min.js');
+app.import('bower_components/bootstrap-material-design/dist/js/ripples.min.js');
+app.import('bower_components/bootstrap-material-design/dist/fonts/Material-Design-Icons.eot', { destDir: 'assets/fonts' });
+app.import('bower_components/bootstrap-material-design/dist/fonts/Material-Design-Icons.svg', { destDir: 'assets/fonts' });
+app.import('bower_components/bootstrap-material-design/dist/fonts/Material-Design-Icons.ttf', { destDir: 'assets/fonts' });
+app.import('bower_components/bootstrap-material-design/dist/fonts/Material-Design-Icons.woff', { destDir: 'assets/fonts' });
 
 module.exports = app.toTree();
