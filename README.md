@@ -51,3 +51,12 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+## Future Implementation
+* Redditify : upvote/ downvote questions
+* User Login: Linkedin / Twitter
+* Customized set of questions : Allow to create own set of questions for studying
+* User can add Questions/ Anwser (public/ personal mode) 
+* Integrate crunchbase API : Company Info
+* Integrate Job posting
+
+ 
