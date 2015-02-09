@@ -9,4 +9,5 @@ export default Ember.Controller.extend({
   hashCollapsedId: function () {
     return '#' + this.get('collapsedId');
   }.property('collapsedId')
+
 });

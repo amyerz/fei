@@ -1,8 +1,8 @@
-# Fei
-
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
-
+## Front End Interview Questions 
+ Emberified the popular Front End Interview Questions from https://github.com/h5bp/Front-end-Developer-Interview-Questions.
+ Applied Material design theme for Bootstrap 3 https://github.com/FezVrasta/bootstrap-material-design
+ ![alt tag](https://cloud.githubusercontent.com/assets/4411687/6099462/a580d6e2-afad-11e4-9028-0d230f1b31b9.png)
+ 
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
