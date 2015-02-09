@@ -493,7 +493,10 @@ export default Ember.Route.extend({
       },{
         id: 73,
         title: "Explain what a single page app is and how to make one SEO-friendly. ",
-        body: "and here the rest",
+        body: "A single-page application (SPA), is a web application or web site that fits on a single web page with the goal of providing a more fluid user experience akin to a desktop application. In an SPA, either all necessary code – HTML, JavaScript, and CSS – is retrieved with a single page load."
+        + " http://www.awwwards.com/seo-tricks-for-one-page-websites.html"+
+        "i) Paginate Your Page, ii)Organize Your CSS for Spiders, iii)Seek Authority, iv)Multiple H1 Tags, v)Don’t Neglect Readability, vi) Keep it Fresh ",
+        answerLink: "http://en.wikipedia.org/wiki/Single-page_application",
         type: "javascript",
         source: "github"
       },
