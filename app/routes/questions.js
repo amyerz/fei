@@ -34,7 +34,7 @@ export default Ember.Route.extend({
       {
         id: 4,
         title: "Are there any problems with serving pages as application/xhtml+xml?",
-        body: "and more text",
+        body: "",
         type: "html",
         source: "github"
       },{
@@ -47,13 +47,17 @@ export default Ember.Route.extend({
       {
         id: 6,
         title: "What kind of things must you be wary of when design or developing for multilingual sites?",
-        body: "and more text",
+        body: "The first thing to get right when working with multiple languages on a website is making sure the language is identified in the code of the page; The 'lang' attribute can be used with almost every HTML element, making it very easy to change languages within a page." +
+        "If you are creating a multi-lingual website which caters for languages written from right-to -left rather than left-to-right, you will need to make sure the direction of text is specified correctly in the code of the page."+
+        "A character encoding is essentially a key to decipher an encrypted collection of letters and symbols used in a writing system." +
+        "The length of words varies from language to language. The design of the website should cater for different length words used through the site. ",
+        answerLink:"http://www.nomensa.com/blog/2010/7-tips-and-techniques-for-multi-lingual-website-accessibility",
         type: "html",
         source: "github"
       },{
         id: 7,
         title: "What are data- attributes good for?",
-        body: "and here the rest",
+        body: "",
         type: "html",
         source: "github"
       },
@@ -464,7 +468,8 @@ export default Ember.Route.extend({
       },{
         id: 69,
         title: "What is 'use strict';? what are the advantages and disadvantages to using it? ",
-        body: "and here the rest",
+        body: "Strict Mode is a new feature in ECMAScript 5 that allows you to place a program, or a function, in a 'strict' operating context. This strict context prevents certain actions from being taken and throws more exceptions.",
+        answerLink:'http://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it',
         type: "javascript",
         source: "github"
       },{
