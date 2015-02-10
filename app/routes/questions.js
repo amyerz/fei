@@ -247,13 +247,7 @@ export default Ember.Route.extend({
         type: "css",
         source: "github"
       },
-      {
-        id: 36,
-        title: " ",
-        body: "",
-        type: "css",
-        source: "github"
-      },
+
       {
         id: 37,
         title: " What existing CSS frameworks have you used locally, or in production? How would you change/improve them?",
@@ -443,7 +437,7 @@ export default Ember.Route.extend({
       },{
         id: 65,
         title: "What is the difference between == and ===? ",
-        body: "",
+        body: "Both double and triple equal compare the value; however, triple equals also known as 'strict equals' or 'identically equal', which also compare the 'type'. ",
         type: "javascript",
         source: "github"
       },{
@@ -455,14 +449,15 @@ export default Ember.Route.extend({
       },{
         id: 67,
         title: " Make this work: duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5] ",
-        body: "",
+        body: "function duplicate(array) {return array.concat(array);}",
         type: "javascript",
         source: "github"
       },
       {
         id: 68,
         title: "Why is it called a Ternary expression, what does the word 'Ternary' indicate? ",
-        body: "",
+        body: "The conditional (ternary) operator is the only JavaScript operator that takes three operands. This operator is frequently used as a shortcut for the if statement.",
+        answerLink: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator" ,
         type: "javascript",
         source: "github"
       },{
