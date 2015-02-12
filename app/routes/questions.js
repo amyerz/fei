@@ -388,13 +388,19 @@ export default Ember.Route.extend({
       },{
         id: 57,
         title: "Explain AJAX in as much detail as possible. ",
-        body: "",
+        body: "AJAX stands for Asynchronous JavaScript and XML. " +
+        "In a nutshell, it is the use of the XMLHttpRequest object to communicate with server-side scripts. " +
+        "It can send as well as receive information in a variety of formats, including JSON, XML, HTML, and even text files. " +
+        "AJAX’s most appealing characteristic, however, is its ;asynchronous' nature, which means it can do all of this without having to refresh the page. " +
+        "This lets you update portions of a page based upon user events.",
+        answerLink:"https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started",
         type: "javascript",
         source: "github"
       },{
         id: 58,
         title: "Explain how JSONP works (and how it's not really AJAX). ",
-        body: "",
+        body:"  One such mechanism which can request content cross-domain is the \<script> tag. In December 2005, Bob Ippolito formally proposed JSONP (later dubbed JSON-P, or JSON-with-padding) as a way to leverage this property of <script> tags to be able to request data in the JSON format across domains. http://json-p.org/",
+        answerLink: "http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about",
         type: "javascript",
         source: "github"
       },
