@@ -407,19 +407,25 @@ export default Ember.Route.extend({
       },{
         id: 60,
         title: "Explain 'hoisting'. ",
-        body: "",
+        body: "Because variable declarations (and declarations in general) are processed before any code is executed, declaring a variable anywhere in the code is equivalent to declaring it at the top. This also means that a variable can appear to be used before it's declared. This behavior is called 'hoisting'," +
+        " as it appears that the variable declaration is moved to the top of the function or global code. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var",
+        answerLink:"http://code.tutsplus.com/tutorials/javascript-hoisting-explained--net-15092",
         type: "javascript",
         source: "github"
       },{
         id: 61,
         title: "Describe event bubbling. ",
-        body: "",
+        body: "DOM elements can be nested  inside each other. And somehow, the handler of the parent works even if you click on it’s child.",
+        answerLink:"http://javascript.info/tutorial/bubbling-and-capturing",
         type: "javascript",
         source: "github"
       },{
         id: 62,
         title: "What's the difference between an 'attribute' and a 'property'? ",
-        body: "",
+        body: "Attributes are in your HTML text document/file, whereas properties are in HTML DOM tree. " +
+        "This means that attributes do not change and always carry initial (default) values. " +
+        "However, HTML properties can change, for example when user checks a checkbox, inputs text to textarea or uses JavaScript to change the property value.",
+        answerLink:"http://jquery-howto.blogspot.com/2011/06/html-difference-between-attribute-and.html",
         type: "javascript",
         source: "github"
       },{
@@ -431,7 +437,14 @@ export default Ember.Route.extend({
       },{
         id: 64,
         title: "Difference between document load event and document ready event? ",
-        body: "",
+        body: "While JavaScript provides the load event for executing code when a page is rendered, " +
+        "this event does not get triggered until all assets such as images have been completely received. " +
+        "In most cases, the script can be run as soon as the DOM hierarchy has been fully constructed. " +
+        "The handler passed to .ready() is guaranteed to be executed after the DOM is ready, " +
+        "so this is usually the best place to attach all other event handlers and run other jQuery code. " +
+        "When using scripts that rely on the value of CSS style properties, " +
+        "it's important to reference external stylesheets or embed style elements before referencing the scripts.",
+        answerLink: "http://api.jquery.com/ready/",
         type: "javascript",
         source: "github"
       },{
@@ -488,8 +501,8 @@ export default Ember.Route.extend({
       },{
         id: 73,
         title: "Explain what a single page app is and how to make one SEO-friendly. ",
-        body: "A single-page application (SPA), is a web application or web site that fits on a single web page with the goal of providing a more fluid user experience akin to a desktop application. In an SPA, either all necessary code – HTML, JavaScript, and CSS – is retrieved with a single page load."
-        + " http://www.awwwards.com/seo-tricks-for-one-page-websites.html"+
+        body: "A single-page application (SPA), is a web application or web site that fits on a single web page with the goal of providing a more fluid user experience akin to a desktop application. In an SPA, either all necessary code – HTML, JavaScript, and CSS – is retrieved with a single page load."+
+        "http://www.awwwards.com/seo-tricks-for-one-page-websites.html"+
         "i) Paginate Your Page, ii)Organize Your CSS for Spiders, iii)Seek Authority, iv)Multiple H1 Tags, v)Don’t Neglect Readability, vi) Keep it Fresh ",
         answerLink: "http://en.wikipedia.org/wiki/Single-page_application",
         type: "javascript",
