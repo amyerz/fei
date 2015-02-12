@@ -265,14 +265,18 @@ export default Ember.Route.extend({
       {
         id: 39,
         title: "How is responsive design different from adaptive design? ",
-        body: "",
+        body: "Adaptive Web Design is different from Responsive Design in that there isn’t one layout that always changes. " +
+        "Instead, there are several distinct layouts for multiple screen sizes, and the layout used depends on the screen size used. ",
+        answerLink:"http://www.mediumwell.com/responsive-adaptive-mobile/",
         type: "css",
         source: "github"
       },
       {
         id: 40,
         title: "Have you ever worked with retina graphics? If so, when and what techniques did you use? ",
-        body: "",
+        body: "By using CSS media queries you can serve these high–resolution images automatically to retina devices." +
+        "By using CSS media queries you can serve these high–resolution images automatically to retina devices.There is a different technique coming (already implemented in current webkit browsers), called image-sets. With this new CSS feature you won‘t need CSS media queries to overwrite your image path, you can simply serve two different assets and the browser will automatically decide which to download. However, since this is currently only working in webkit browsers",
+        answerLink:"http://ivomynttinen.com/blog/a-guide-for-creating-a-better-retina-web/",
         type: "css",
         source: "github"
       }, {
