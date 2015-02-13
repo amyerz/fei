@@ -466,7 +466,9 @@ export default Ember.Route.extend({
       },{
         id: 66,
         title: "Explain the same-origin policy with regards to JavaScript. ",
-        body: "",
+        body: "The same-origin policy restricts how a document or script loaded from one origin can interact with a resource from another origin. " +
+        "Same-origin Policy is used as a means to prevent some of the Cross-site Request Forgery attacks.",
+        answerLink: "https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy",
         type: "javascript",
         source: "github"
       },{
