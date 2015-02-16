@@ -101,7 +101,8 @@ export default Ember.Route.extend({
       },{
         id: 14,
         title: "Describe Floats and how they work.",
-        body: "",
+        body: "The float CSS property specifies that an element should be taken from the normal flow and placed along the left or right side of its container, where text and inline elements will wrap around it. As float implies the use of the block layout, it modifies the computed value of the display values in some cases",
+        answerLink: "https://developer.mozilla.org/en-US/docs/Web/CSS/float",
         type: "css",
         source: "github"
       },{
