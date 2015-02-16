@@ -89,13 +89,16 @@ export default Ember.Route.extend({
       },{
         id: 12,
         title: "What is the difference between classes and ID's in CSS?",
-        body: "",
+        body: "The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.",
+        answerLink: "http://www.htmldog.com/guides/css/intermediate/classid/",
         type: "css",
         source: "github"
       },{
         id: 13,
         title: "What's the difference between 'resetting' and 'normalizing' CSS? Which would you choose, and why?",
-        body: "",
+        body: "1) Normalize.css preserves useful defaults rather than 'unstyling' everything. 2) Normalize.css corrects some common bugs that are out of scope for reset.css. " +
+        "3) Normalize.css doesn't clutter your dev tools. 4) Normalize.css is more modular. 5) Normalize.css has better documentation. ",
+        answerLink: "http://stackoverflow.com/questions/6887336/what-is-the-difference-between-normalize-css-and-reset-css",
         type: "css",
         source: "github"
       },{
